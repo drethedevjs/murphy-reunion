@@ -1,0 +1,64 @@
+/* import Flowbite Vue styles */
+@import "flowbite-vue/index.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  @apply text-center md:text-7xl mt-10 text-6xl;
+}
+
+h2 {
+  @apply md:text-5xl sm:text-3xl text-2xl mt-10 mb-3 dark:text-white;
+}
+
+p {
+  @apply lg:text-2xl lg:mb-5 mb-3 dark:text-white;
+}
+
+.otr-container {
+  @apply container mx-auto px-10 my-10;
+}
+
+.handle {
+  @apply text-red-400 hover:text-teal-900 hover:cursor-pointer;
+}
+
+.otr-gradient {
+  @apply bg-gradient-to-r from-primary via-neutral to-secondary text-transparent bg-clip-text;
+}
+
+.otr-bg-gradient {
+  @apply bg-gradient-to-r from-primary to-secondary;
+}
+
+.otr-gradient-2 {
+  @apply bg-gradient-to-r from-primary to-secondary text-transparent bg-clip-text;
+}
+
+.page-title {
+  @apply otr-gradient-2 font-bold;
+}
+
+@media (prefers-color-scheme: dark) {
+  .otr-gradient {
+    @apply from-primary to-secondary bg-gradient-to-r text-transparent bg-clip-text;
+  }
+}
+
+.overlay {
+  @apply absolute inset-0 bg-black opacity-25 pointer-events-none;
+}
+
+.sub-header {
+  @apply 2xl:text-6xl xl:text-4xl md:text-3xl text-xl mb-3 tracking-widest;
+}
+
+.info {
+  @apply 2xl:text-8xl xl:text-6xl md:text-5xl text-5xl shrink tracking-widest;
+}
+
+.overlay-text {
+  @apply absolute inset-0 object-none place-content-center text-center text-white drop-shadow-2xl pointer-events-none;
+}
