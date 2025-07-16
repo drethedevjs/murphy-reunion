@@ -7,8 +7,8 @@ import { FwbImg } from "flowbite-vue";
   >
     <div class="block-side">
       <fwb-img
-        alt="Cincinnati skyline."
-        src="/images/cincinnati-skyline.jpg"
+        alt="Indianapolis skyline."
+        src="/images/indy-skyline.jpeg"
         class="object-cover h-full hover:scale-105 hover:rotate-2 transition-transform"
       />
       <div class="overlay flex"></div>

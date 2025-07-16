@@ -1,8 +1,5 @@
-import CommitteeView from "@/views/CommitteeView.vue";
 import HomeView from "@/views/HomeView.vue";
-import LodgingView from "@/views/LodgingView.vue";
 import PaymentView from "@/views/PaymentView.vue";
-import PostEventView from "@/views/PostEventView.vue";
 import { createRouter, createWebHistory } from "vue-router";
 
 const router = createRouter({
@@ -31,21 +28,21 @@ const router = createRouter({
       name: "pay",
       component: PaymentView,
     },
-    {
-      path: "/lodging",
-      name: "lodging",
-      component: LodgingView,
-    },
-    {
-      path: "/committee",
-      name: "committee",
-      component: CommitteeView,
-    },
-    {
-      path: "/post",
-      name: "post-event",
-      component: PostEventView,
-    },
+    // {
+    //   path: "/lodging",
+    //   name: "lodging",
+    //   component: LodgingView,
+    // },
+    // {
+    //   path: "/committee",
+    //   name: "committee",
+    //   component: CommitteeView,
+    // },
+    // {
+    //   path: "/post",
+    //   name: "post-event",
+    //   component: PostEventView,
+    // },
   ],
 });
 

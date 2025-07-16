@@ -5,8 +5,8 @@ import { FwbImg } from "flowbite-vue";
   <div class="flex flex-col md:place-items-stretch place-items-center md:flex-row w-full gap-4">
     <div class="block-side">
       <fwb-img
-        alt="Cincinnati skyline."
-        src="/images/cincinnati-skyline.jpg"
+        alt="Indianapolis skyline."
+        src="/images/indy-skyline.jpg"
         class="hover:scale-105 transition-transform"
       />
       <div class="overlay flex"></div>

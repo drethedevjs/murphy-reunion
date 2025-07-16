@@ -14,12 +14,12 @@ import { FwbButton, FwbNavbar, FwbNavbarCollapse, FwbNavbarLink } from "flowbite
         <fwb-navbar-link link="/about">
           <span class="header-link">About</span>
         </fwb-navbar-link>
-        <fwb-navbar-link link="/committee">
+        <!-- <fwb-navbar-link link="/committee">
           <span class="header-link">Committee</span>
-        </fwb-navbar-link>
-        <fwb-navbar-link link="/post">
+        </fwb-navbar-link> -->
+        <!-- <fwb-navbar-link link="/post">
           <span class="header-link">Post Event</span>
-        </fwb-navbar-link>
+        </fwb-navbar-link> -->
         <!-- <fwb-navbar-link link="/lodging">
           <span class="header-link">Lodging</span>
         </fwb-navbar-link> -->
@@ -27,8 +27,8 @@ import { FwbButton, FwbNavbar, FwbNavbarCollapse, FwbNavbarLink } from "flowbite
       </fwb-navbar-collapse>
     </template>
     <template #right-side>
-      <fwb-button href="/post" class="otr-bg-gradient"> We Did It! </fwb-button>
-      <!-- <fwb-button href="/pay" class="otr-bg-gradient"> Secure Your Spot </fwb-button> -->
+      <!-- <fwb-button href="/post" class="otr-bg-gradient"> We Did It! </fwb-button> -->
+      <fwb-button href="/pay" class="otr-bg-gradient"> Secure Your Spot </fwb-button>
     </template>
   </fwb-navbar>
 </template>

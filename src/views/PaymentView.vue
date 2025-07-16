@@ -31,25 +31,25 @@ import {
         <fwb-table-row>
           <fwb-table-cell>Adult (18+)</fwb-table-cell>
           <fwb-table-cell class="dark:text-white text-black">
-            <span class="text-gray-500"><s>$90</s></span> $80
-            <small>per person</small></fwb-table-cell
-          >
+            $100
+            <small>per person</small>
+          </fwb-table-cell>
         </fwb-table-row>
         <fwb-table-row>
-          <fwb-table-cell>Age 13-17</fwb-table-cell>
+          <fwb-table-cell>Age 15 and Under</fwb-table-cell>
           <fwb-table-cell class="dark:text-white text-black">
-            <span class="text-gray-500"><s>$25</s></span> $20
-            <small>per person</small></fwb-table-cell
-          >
+            $25
+            <small>per person</small>
+          </fwb-table-cell>
         </fwb-table-row>
         <fwb-table-row>
-          <fwb-table-cell>Ages 12 and Under</fwb-table-cell>
+          <fwb-table-cell>Ages 2 and Under</fwb-table-cell>
           <fwb-table-cell class="dark:text-white text-black">FREE</fwb-table-cell>
         </fwb-table-row>
       </fwb-table-body>
     </fwb-table>
 
-    <h2>How to Pay</h2>
+    <!-- <h2>How to Pay</h2>
     <p>
       We've set up a few simple ways for you to send your admission payment—just pick whatever works
       best for you. Whether you prefer digital options or want to pay in person, we've got you
@@ -95,7 +95,7 @@ import {
           >
         </fwb-table-row>
       </fwb-table-body>
-    </fwb-table>
+    </fwb-table> -->
   </div>
 </template>
 
