@@ -15,9 +15,9 @@ onMounted(() => {
 <template>
   <section class="w-full md:h-screen h-96 relative overflow-hidden">
     <img
-      src="/images/black-family-hero-2.jpg"
+      src="/images/family-reunion-hero.png"
       alt="a woman standing in a meeting addressing the attendees"
-      class="h-full w-full object-cover"
+      class="h-full w-full object-cover md:blur-sm"
     />
     <div class="overlay flex md:hidden"></div>
     <div id="hero-txt">

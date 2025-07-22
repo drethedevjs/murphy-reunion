@@ -19,17 +19,22 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#F6BE00", // Gold
-        secondary: "#C8102E", // Red
-        contrast: "#0033A0", // Blue
-        neutral: "#101820", // Black
-        white: "#FFFFFF", // White
+        primary: "#1A237E", // Indigo
+        secondary: "#FF9800", // Orange
+        contrast: "#00C853", // Emerald Green
+        neutral: "#F5F5F5", // Light Gray
+        accent: "#D500F9", // Vivid Purple
+        fun: "#FFEB3B", // Bright Yellow
+        sky: "#0288D1", // Strong Blue
         // Dark mode variants
-        "primary-dark": "#FFD447",
-        "secondary-dark": "#FF5C5C",
-        "contrast-dark": "#5C88FF",
-        "neutral-dark": "#E4E4E4",
-        "bg-dark": "#0D0D0D",
+        "primary-dark": "#3949AB",
+        "secondary-dark": "#FFB74D",
+        "contrast-dark": "#69F0AE",
+        "neutral-dark": "#212121",
+        "accent-dark": "#BA68C8",
+        "fun-dark": "#FBC02D",
+        "sky-dark": "#01579B",
+        "bg-dark": "#121212",
       },
     },
   },
